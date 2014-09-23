@@ -53,13 +53,13 @@ interface ChatHubClient
 {
 
     /**
-      * Set this function with a "function(name : number, message : string){}" to receive the "addNewMessageToPage" message from the ChatHub hub.
+      * Set this function with a "function(name : string, message : string){}" to receive the "addNewMessageToPage" message from the ChatHub hub.
       * Contract Documentation: ---
-      * @param name {number} 
+      * @param name {string} 
       * @param message {string} 
       * @return {void}
       */
-    addNewMessageToPage : (name : number, message : string) => void;
+    addNewMessageToPage : (name : string, message : string) => void;
 }
 
 //#endregion ChatHub hub

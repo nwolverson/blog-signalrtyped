@@ -1,5 +1,6 @@
-﻿/// <reference path="scripts/typings/jquery/jquery.d.ts" />
+/// <reference path="scripts/typings/jquery/jquery.d.ts" />
 /// <reference path="scripts/typings/signalr/signalr.d.ts" />
+/// <reference path="types.d.ts" />
 
 
 $(function () {

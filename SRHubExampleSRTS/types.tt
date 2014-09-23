@@ -27,7 +27,7 @@
 	{
 		var op = p.ConfigurationManager.ActiveConfiguration.Properties.Item("OutputPath").Value as string;
 		if (op == null) { op = "!UNKNOWN!"; }				
-		var path = @"C:\Users\nwolverson\Documents\Visual Studio 2013\Projects\SignalRTest\SRHubsTT\" + op + "SRHubsTT.dll";				
+		var path = @"C:\Users\nwolverson\Documents\Visual Studio 2013\Projects\SignalRTest\SRHubExampleSRTS\" + op + "SRHubsTT.dll";				
 
 		SignalRModule.Create(path);
 		var output = "// AUTO GENERATED - DO NOT EDIT MANUALLY\n// Assembly File:" + path + "\n\n";

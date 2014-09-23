@@ -1,11 +1,11 @@
-﻿/// <reference path="scripts/typings/jquery/jquery.d.ts" />
+/// <reference path="scripts/typings/jquery/jquery.d.ts" />
 /// <reference path="scripts/typings/signalr/signalr.d.ts" />
+/// <reference path="types.d.ts" />
 
 interface IPromise<T> extends JQueryPromise<T> {}
 
-
 interface SignalR {
-    chatHub: IChatHubProxy
+    chatHub: any
 }
 
 // Manually added!
@@ -15,7 +15,8 @@ interface IChatHubClient {
 
 $(function () {
     // Reference the auto-generated proxy for the hub.
-    var chat = $.connection.chatHub;
+    var chat  = $.connection.chatHub;
+    
     // Create a function that the hub can call back to display messages.
     chat.client.addNewMessageToPage = function (name, message) {
         // Add the message to the page.

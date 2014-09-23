@@ -1,5 +1,5 @@
 // AUTO GENERATED - DO NOT EDIT MANUALLY
-// Assembly File:C:\Users\nwolverson\Documents\Visual Studio 2013\Projects\SignalRTest\SRHubsTT\bin\SRHubsTT.dll
+// Assembly File:C:\Users\nwolverson\Documents\Visual Studio 2013\Projects\SignalRTest\SRHubExampleSRTS\bin\SRHubsTT.dll
 
 
 /* Sample code -- create a .ts file, and paste the following to get started
